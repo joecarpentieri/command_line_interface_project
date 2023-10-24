@@ -11,7 +11,6 @@ public class FlightTest {
     @BeforeEach
     void setUp(){
         flight = new Flight(
-                "France",
                 2000,
                 "Paris",
                 0);
