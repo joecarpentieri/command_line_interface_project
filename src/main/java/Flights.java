@@ -27,7 +27,7 @@ public class Flights {
     //Should display destination (String)
     //
     public void addDestination(){
-        this.destination.
+        this.destination
     }
 
 
