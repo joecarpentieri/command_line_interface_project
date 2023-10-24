@@ -64,11 +64,17 @@ public class Flight {
     //Unique methods
 
     public void addPassenger(Passenger passenger){
-        this.passenger.add(1, passenger);
+        this.passenger.add(passenger);
     }
 
     public void removePassenger(Passenger passenger){
-        this.getPassenger().remove(0);
+        this.getPassenger().remove(passenger);
     }
+
+    public String displayAvailableFlights(){
+        return this.getDestination();
+    }
+
+
 
 }  // Last curly bracket

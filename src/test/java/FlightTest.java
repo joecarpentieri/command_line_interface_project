@@ -25,4 +25,18 @@ public class FlightTest {
         assertThat(flight.getPassenger().size()).isEqualTo(1);
     }
 
+    @Test
+    void canRemovePassenger(){
+        flight.addPassenger(passenger);
+        flight.removePassenger(passenger);
+        flight.addPassenger(passenger);
+        assertThat(flight.getPassenger().size()).isEqualTo(1);
+    }
+
+    @Test
+    void canDisplayFlights(){
+        String result = flight.displayAvailableFlights();
+        assertThat(result).isEqualTo("Paris");
+    }
+
 } //last curly bracket
