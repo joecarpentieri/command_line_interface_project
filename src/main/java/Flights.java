@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-//Comment part two to check 
+//Comment part two to check
 //Change to abstract
 public class Flights {
 
