@@ -8,6 +8,6 @@ public class Passenger {
 
 //    method
 
-    public void buyTicketFromAirport()
+//    public void buyTicketFromAirport();
 
 }

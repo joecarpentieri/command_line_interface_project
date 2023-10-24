@@ -26,9 +26,9 @@ public class Flights {
     //Display the flights available
     //Should display destination (String)
     //
-    public void addDestination(){
-        this.destination
-    }
+//    public void addDestination(){
+//        this.destination
+//    }
 
 
 

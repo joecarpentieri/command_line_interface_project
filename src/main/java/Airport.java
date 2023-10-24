@@ -10,8 +10,20 @@ public class Airport {
         this.availableFlights = new ArrayList<>();
     }
 
+    public int countFlight() {
+        return availableFlights.size();
+    }
+
+    public void addDestination(Flights flights) {
+        this.availableFlights.add(flights);
+    }
+
+    public void removeDestination(Flights flights) {
+        this.availableFlights.remove(flights);
+    }
+
 //    methods
 
-    public
+//    public
 
 }
